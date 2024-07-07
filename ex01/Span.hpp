@@ -12,7 +12,7 @@ class Span {
 	public:
 		Span();
 		Span(unsigned int size);
-		Span(Span& copy);
+		Span(const Span& copy);
 		~Span();
 		Span& operator=(Span& copy);
 

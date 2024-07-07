@@ -30,7 +30,7 @@ Span::Span(unsigned int size) {
 	this->actual_size = 0;
 }
 
-Span::Span(Span &copy) {
+Span::Span(const Span &copy) {
 	this->size = copy.size;
 	try {
 		this->data = new int[copy.size];
